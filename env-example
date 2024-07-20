@@ -1,0 +1,13 @@
+REACT_APP_NAME="eDemand"
+REACT_APP_BASE_URL = "https://edemand.wrteam.me"
+REACT_APP_MAP_API = "AIzaSyDArxAFcnCgz7xmveZFLVgWkuocoRfumfA"
+
+REACT_APP_INSTAGRAM_LINK = "https://www.instagram.com/****************"
+REACT_APP_WHATSAPP_NUMBER = "***************"
+REACT_APP_FACEBOOK_LINK =
+  "https://www.facebook.com/profile.php?id=*******************"
+REACT_APP_TWITTER_LINK = "https://twitter.com/***************"
+REACT_APP_LINKEDIN_LINK = "https://www.linkedin.com/company/wrteam"
+
+REACT_APP_PLAY_STORE_LINK = "#"
+REACT_APP_APPLE_STORE_LINK = "#"

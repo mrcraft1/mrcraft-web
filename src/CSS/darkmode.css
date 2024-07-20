@@ -1,0 +1,76 @@
+/* Dark mode css */
+
+/* --------Table Content------------ 
+
+     01 Header 
+     02 Content
+
+  -------------------- */
+
+:root {
+    --darkmode-color:rgb(4, 28, 50);
+}
+
+/* 01 Header */
+.dark-mode header {
+  background-color: var(--darkmode-color);
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode ul a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode header .headerIcons {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode .header-offcanvas {
+  background-color: var(--darkmode-color);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode .header-offcanvas ul a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode .main-content-search {
+  background-color: var(--darkmode-color);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode .search-input .text-field-input{
+    background-color: var(--darkmode-color);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode .services-main .serices_right_data h5,
+.dark-mode .services-main .serices_right_data p{
+    color: #fff;
+    font-weight: bold;
+}
+
+.dark-mode .services-main .service-card-slider{
+    background-color: var(--darkmode-color);
+    color: rgba(255, 255, 255, 0.7);
+    border-color: #626060;
+    border-radius: 0;
+}
+
+.dark-mode .services-main .service-card-slider .card-right .card-middle .desc p,
+.services-main .service-card-slider .card-right .card-middle .duration p{
+    color: #fff;
+}
+
+.dark-mode .services-main .service-card-slider .card-left .overlay{
+    border-radius: 0;
+}
+
+.dark-mode .details_specific_service{
+  background-color: var(--darkmode-color);
+}
+
+.dark-mode .PhoneInputInput{
+  color: #fff;
+}

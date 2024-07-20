@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+
+# Handle API requests if needed (replace '/api' with your API route)
+RewriteRule ^api/(.*)$ /your-api-endpoint/$1 [L]
+
+# Handle all other requests as React routes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L]
