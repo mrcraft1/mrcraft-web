@@ -330,6 +330,10 @@ const Header = ({ check, changeLight, changeDark }) => {
                     >
                       {t("home")}
                     </Link>
+                    
+   <Button color="inherit" href="https://mrcraft.online/auth/create_user" target="_blank" rel="noopener noreferrer">
+          Become a Provider
+        </Button>
                     <Link
                       to="/about"
                       className={
@@ -354,14 +358,7 @@ const Header = ({ check, changeLight, changeDark }) => {
                     >
                       {t("all_providers")}
                     </Link>
-                    <Link
-                      to="/contact"
-                      className={
-                        location.pathname === "/contact" ? "navActive" : ""
-                      }
-                    >
-                      {t("contact")}
-                    </Link>
+                  
                   </ul>
                 </div>
 
