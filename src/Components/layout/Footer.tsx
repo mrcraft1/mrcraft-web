@@ -49,11 +49,15 @@ const Footer: React.FC = () => {
                   <div className="f-links">
                     <ul>
                       <li>
-                        <Link to="/about">{t("about_us")}</Link>
+                        
+   <Button color="inherit" href="https://mrcraft.online/auth/create_user" target="_blank" rel="noopener noreferrer">
+          Become a Provider
+        </Button>
                       </li>
                       <li>
-                        <Link to="/contact">{t("contact_us")}</Link>
+                        <Link to="/about">{t("about_us")}</Link>
                       </li>
+                      
                       <li>
                         <Link to="/terms-and-conditions">
                           {t("terms_and_conditions")}
